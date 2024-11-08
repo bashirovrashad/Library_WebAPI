@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIM_WebApi", "DIM_WebApi\DIM_WebApi.csproj", "{2E6C0C96-2099-4EE2-B6EF-D5EC8B8ADD87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6C0C96-2099-4EE2-B6EF-D5EC8B8ADD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6C0C96-2099-4EE2-B6EF-D5EC8B8ADD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6C0C96-2099-4EE2-B6EF-D5EC8B8ADD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6C0C96-2099-4EE2-B6EF-D5EC8B8ADD87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {662F236F-DE59-4158-AB6B-4471C52E4713}
+	EndGlobalSection
+EndGlobal

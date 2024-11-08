@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DIM_WebApi.props" />
+</Project>

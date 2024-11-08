@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\books.html",
+      "PackagePath": "staticwebassets\\books.html"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\css\\authors.css",
+      "PackagePath": "staticwebassets\\css\\authors.css"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\html\\authors.html",
+      "PackagePath": "staticwebassets\\html\\authors.html"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\javascript\\authors.js",
+      "PackagePath": "staticwebassets\\javascript\\authors.js"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\readers.html",
+      "PackagePath": "staticwebassets\\readers.html"
+    },
+    {
+      "Id": "C:\\Users\\NITRO\\Desktop\\DIM_WebApi\\DIM_WebApi\\wwwroot\\sales.html",
+      "PackagePath": "staticwebassets\\sales.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DIM_WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DIM_WebApi.props",
+      "PackagePath": "build\\DIM_WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DIM_WebApi.props",
+      "PackagePath": "buildMultiTargeting\\DIM_WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DIM_WebApi.props",
+      "PackagePath": "buildTransitive\\DIM_WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

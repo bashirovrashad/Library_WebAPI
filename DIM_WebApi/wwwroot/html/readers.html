@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readers Management</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/readers.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Readers Management</h2>
+        <button class="btn btn-primary mb-3" onclick="document.getElementById('addReaderForm').style.display='block'">+ Add Reader</button>
+
+        <div id="addReaderForm" class="form-container">
+            <h4>Add New Reader</h4>
+            <div class="form-group">
+                <label for="readerName">Reader Name</label>
+                <input type="text" id="readerName" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="readerSurname">Reader Surname</label>
+                <input type="text" id="readerSurname" class="form-control" required>
+            </div>
+            <button class="btn btn-success" onclick="addReader()">Save Reader</button>
+            <button class="btn btn-secondary" onclick="clearAddReaderForm()">Cancel</button>
+        </div>
+
+        <ul id="readerList" class="list-group"></ul>
+
+        <div id="editReaderForm" class="form-container">
+            <h4>Edit Reader</h4>
+            <input type="hidden" id="editReaderId">
+            <div class="form-group">
+                <label for="editReaderName">Reader Name</label>
+                <input type="text" id="editReaderName" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="editReaderSurname">Reader Surname</label>
+                <input type="text" id="editReaderSurname" class="form-control" required>
+            </div>
+            <button class="btn btn-success" onclick="saveEditedReader()">Save Changes</button>
+            <button class="btn btn-secondary" onclick="clearEditReaderForm()">Cancel</button>
+        </div>
+    </div>
+
+    <script src="/javascript/readers.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+

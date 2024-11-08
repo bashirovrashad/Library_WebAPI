@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/books.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Books</h2>
+        <button class="btn btn-custom mb-3" onclick="showAddBookForm()">Add Book</button>
+
+        <div id="addBookForm" class="card" style="display: none;">
+            <div class="card-header">Add Book</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="bookName">Book Name</label>
+                    <input type="text" id="bookName" class="form-control" placeholder="Enter book name">
+                </div>
+                <div class="form-group">
+                    <label for="bookYear">Year</label>
+                    <input type="number" id="bookYear" class="form-control" placeholder="Enter publication year">
+                </div>
+                <div class="form-group">
+                    <label for="bookPrice">Price</label>
+                    <input type="number" step="0.01" id="bookPrice" class="form-control" placeholder="Enter price">
+                </div>
+                <div class="form-group">
+                    <label for="authorSelect">Author</label>
+                    <select id="authorSelect" class="form-control"></select>
+                </div>
+                <button class="btn btn-success" onclick="addBook()">Save</button>
+                <button class="btn btn-secondary" onclick="clearAddBookForm()">Cancel</button>
+            </div>
+        </div>
+
+        <div id="editBookForm" class="card" style="display: none;">
+            <div class="card-header">Edit Book</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="editBookName">Book Name</label>
+                    <input type="text" id="editBookName" class="form-control" placeholder="Enter book name">
+                </div>
+                <div class="form-group">
+                    <label for="editBookYear">Year</label>
+                    <input type="number" id="editBookYear" class="form-control" placeholder="Enter publication year">
+                </div>
+                <div class="form-group">
+                    <label for="editBookPrice">Price</label>
+                    <input type="number" step="0.01" id="editBookPrice" class="form-control" placeholder="Enter price">
+                </div>
+                <div class="form-group">
+                    <label for="editAuthorSelect">Author</label>
+                    <select id="editAuthorSelect" class="form-control"></select>
+                </div>
+                <button class="btn btn-warning" onclick="updateBook()">Update</button>
+                <button class="btn btn-secondary" onclick="clearEditBookForm()">Cancel</button>
+            </div>
+        </div>
+
+        <div id="bookList" class="list-group mt-3"></div>
+    </div>
+    <script src="/javascript/books.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+@DIM_WebApi_HostAddress = http://localhost:5123
+
+GET {{DIM_WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
